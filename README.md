@@ -2,6 +2,9 @@
 
 A React application that allows users to explore characters from the Rick and Morty universe using the [Rick and Morty API](https://rickandmortyapi.com/).
 
+## See it live:
+https://efesn.github.io/rick-and-morty-assesment/
+
 ## Features
 
 - **Character Grid/List View**
