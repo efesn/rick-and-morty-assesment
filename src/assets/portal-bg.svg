@@ -1,0 +1,10 @@
+<svg width="60" height="60" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="portal" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#97ce4c;stop-opacity:0.2"/>
+      <stop offset="100%" style="stop-color:#00b0c8;stop-opacity:0.2"/>
+    </linearGradient>
+  </defs>
+  <circle cx="30" cy="30" r="25" fill="url(#portal)" stroke="#97ce4c" stroke-width="0.5" opacity="0.3"/>
+  <path d="M30 5C18.954 5 10 13.954 10 25" stroke="#00b0c8" stroke-width="0.5" fill="none" opacity="0.3"/>
+</svg> 

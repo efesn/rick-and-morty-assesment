@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+
+@font-face {
+  font-family: 'Get Schwifty';
+  src: url('./assets/get_schwifty.ttf') format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-space-black text-white min-h-screen font-rubik;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-rubik font-bold;
+  }
+}
+
+@layer components {
+  .logo-text {
+    @apply font-schwifty bg-gradient-to-r from-portal-green via-portal-blue to-rick-blue 
+           bg-clip-text text-transparent tracking-wide;
+  }
+
+  .card {
+    @apply bg-dimension-gray rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:scale-105;
+  }
+
+  .portal-button {
+    @apply bg-portal-green text-white font-bold py-2 px-4 rounded-full 
+           hover:bg-portal-blue transition-colors duration-300 
+           focus:outline-none focus:ring-2 focus:ring-portal-blue focus:ring-opacity-50
+           shadow-lg shadow-portal-green/20;
+  }
+
+  .filter-select {
+    @apply bg-dimension-gray text-white border-portal-blue rounded-lg 
+           focus:ring-portal-green focus:border-portal-green
+           font-medium;
+  }
+
+  .search-input {
+    @apply bg-dimension-gray text-white border-portal-blue rounded-lg 
+           focus:ring-portal-green focus:border-portal-green
+           placeholder-gray-400 font-medium;
+  }
+
+  .status-badge {
+    @apply px-3 py-1 rounded-full text-sm font-medium shadow-lg;
+  }
+
+  .status-badge-alive {
+    @apply bg-portal-green text-white shadow-portal-green/20;
+  }
+
+  .status-badge-dead {
+    @apply bg-red-600 text-white shadow-red-600/20;
+  }
+
+  .status-badge-unknown {
+    @apply bg-gray-500 text-white shadow-gray-500/20;
+  }
+
+  .title-gradient {
+    @apply bg-gradient-to-r from-portal-green via-portal-blue to-rick-blue 
+           bg-clip-text text-transparent font-bold;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  @apply w-2;
+}
+
+::-webkit-scrollbar-track {
+  @apply bg-dimension-gray;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-portal-blue rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-portal-green;
+}
+
+/* Smooth scrolling */
+html {
+  @apply scroll-smooth;
+}
+
+/* Remove outline for clicked cards */
+.MuiCard-root {
+  outline: none !important;
+} 
