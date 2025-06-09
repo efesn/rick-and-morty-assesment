@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/rick-and-morty-assesment/static/css/main.b708f7a8.css",
+    "main.js": "/rick-and-morty-assesment/static/js/main.2c83ceb3.js",
+    "static/js/453.024d4799.chunk.js": "/rick-and-morty-assesment/static/js/453.024d4799.chunk.js",
+    "static/media/get_schwifty.ttf": "/rick-and-morty-assesment/static/media/get_schwifty.c3d1dfc692e3547fed16.ttf",
+    "index.html": "/rick-and-morty-assesment/index.html",
+    "main.b708f7a8.css.map": "/rick-and-morty-assesment/static/css/main.b708f7a8.css.map",
+    "main.2c83ceb3.js.map": "/rick-and-morty-assesment/static/js/main.2c83ceb3.js.map",
+    "453.024d4799.chunk.js.map": "/rick-and-morty-assesment/static/js/453.024d4799.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b708f7a8.css",
+    "static/js/main.2c83ceb3.js"
+  ]
+}
